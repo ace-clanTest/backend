@@ -17,4 +17,9 @@ public class TestController {
     public String testEnd(){
         return "Then I am sure this is working";
     }
+
+    @GetMapping("/checkTested")
+    public String testEnded(){
+        return "Then I am sure this is working for real";
+    }
 }
