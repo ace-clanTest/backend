@@ -13,6 +13,12 @@ public class TestController {
 
     }
 
+    @GetMapping("/newcheck")
+    public String testing(){
+        return "Ace Clan Testing";
+
+    }
+
     @GetMapping("/checkTest")
     public String testEnd(){
         return "Then I am sure this is working";
